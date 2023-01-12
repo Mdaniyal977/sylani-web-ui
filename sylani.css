@@ -405,6 +405,56 @@ width: 95%;
     align-items: center;   
     height: 600px;
 }
+.heading-mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px;
+    /* height: 123px; */
+    padding-bottom: 23px;
+    padding-top: 23px;
+}
+.heading-mid h1{
+    font-weight: 600;
+    font-size: 33px;
+}
+.servies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+    flex-wrap: wrap;
+
+}
+.serviesbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(182,239,73,.2);
+    border-radius: 10px;
+    color: #424242;
+    cursor: default;
+    margin-top: 40px;
+    padding: 40px;
+    /* width: 40%; */
+    text-align: center;
+    margin-left: 23px;
+
+}
+.serviesicon{
+    object-fit: contain;
+    width: 80px; 
+    height: 80px;
+}
+.serviestext{
+    color: rgba(0,0,0,.85);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 1em;
+}
+
 @media (max-width: 1000px) {
     nav {
         padding: 0 40px 0 50px;
